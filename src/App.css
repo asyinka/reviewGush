@@ -13,6 +13,7 @@ html {
   text-rendering: optimizeLegibility;
   touch-action: manipulation;
 }
+/* nav section */
 .navBar {
   -webkit-box-align: center;
   align-items: center;
@@ -69,4 +70,11 @@ html {
   .navBar-Button {
     display: inline-flex;
   }
+}
+/* hero section */
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+.hero__headings {
 }
