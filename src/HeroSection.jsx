@@ -15,14 +15,14 @@ const HeroSection = () => {
         <button className="hero__button button-primary button-primary--text">
           Start Here
         </button>
-        <picture className="hero__picture--container">
-          <img
-            className="hero__picture"
-            src="./src/assets/images/developer.svg"
-            alt="image of a developer working on his system"
-          />
-        </picture>
       </div>
+      <picture className="hero__picture--container">
+        <img
+          className="hero__picture"
+          src="./src/assets/images/developer.svg"
+          alt="image of a developer working on his system"
+        />
+      </picture>
     </div>
   );
 };
