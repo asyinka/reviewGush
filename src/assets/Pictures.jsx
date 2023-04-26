@@ -1,8 +1,8 @@
-const Pictures = ({ url }) => {
+const Pictures = ({ url, classNaming, imageDivClass }) => {
   return (
-    <picture className="hero__picture--container">
+    <picture className={imageDivClass}>
       <img
-        className="hero__picture"
+        className={classNaming}
         src={url}
         alt="image of a developer working on his system"
       />

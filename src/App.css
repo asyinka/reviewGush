@@ -14,12 +14,21 @@
   --spacing-2: 2rem;
   --spacing-3: 1rem;
   --spacing-4: 4rem;
+  --mx-font-size-3: 3rem;
   --line-height-min: 1.2;
+  --font-size-mid: 0.875rem;
+  --text-color-gray: #718096;
 }
 html {
   text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   touch-action: manipulation;
+}
+img,
+video {
+  max-width: 100%;
+  height: auto;
+  overflow-clip-margin: content-box;
 }
 /* nav section */
 .navBar {
@@ -65,7 +74,7 @@ html {
 .button-primary--text {
   font-weight: 600;
   line-height: var(--line-height-min);
-  font-size: 0.875rem;
+  font-size: var(--font-size-mid);
   color: #ffffff;
 }
 .button-primary:hover {
@@ -84,8 +93,9 @@ html {
 .hero-container {
   display: flex;
   flex-direction: column;
+  width: 100vw;
+  margin: 0 auto;
   align-items: center;
-  width: 100%;
 }
 .hero {
   display: flex;
@@ -145,7 +155,7 @@ h1:hover {
 .hero__article {
   margin-top: var(--spacing-1);
   text-align: center;
-  color: #718096;
+  color: var(--text-color-gray);
   font-size: 1.25rem;
   font-weight: 300;
 }
@@ -176,7 +186,7 @@ h1:hover {
     flex-direction: row;
   }
   h1 {
-    font-size: 3rem;
+    font-size: var(--mx-font-size-3);
   }
 }
 /* Adjust image size for smaller screens */
@@ -192,5 +202,67 @@ h1:hover {
   .hero__picture {
     width: 600px;
     height: auto;
+  }
+}
+/* project features section */
+.featuresCard {
+  display: flex;
+  margin: 4rem 4rem;
+}
+.featuresCard__tag {
+  font-weight: 500;
+  font-size: var(--font-size-mid);
+  line-height: 1;
+  text-transform: uppercase;
+}
+.featuresCard__tag--primary {
+  color: var(--text-color-orange);
+}
+.featuresCard__heading {
+  font-weight: 700;
+  font-size: var(--mx-font-size-3);
+  margin-bottom: var(--spacing-1);
+}
+.featuresCard__article p {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: var(--text-color-gray);
+}
+.featuresCard__lists {
+  margin: 20px 10px;
+  list-style-type: none;
+  color: var(--text-color-gray);
+}
+.featuresCard__more {
+  text-decoration: none;
+  cursor: pointer;
+}
+.lm--primary {
+  background: var(--text-color-green);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.featureCardImage__Container--primary {
+  margin-left: 20px;
+}
+.featureCardImage__Container--secondary {
+  margin-right: 20px;
+}
+.featureCardImage {
+  width: 500px;
+  height: auto;
+}
+@media screen and (min-width: 30em) {
+  .featuresCard__article {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .featuresCard {
+    display: flex;
+    flex-direction: column;
   }
 }

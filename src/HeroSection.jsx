@@ -2,6 +2,8 @@ import Pictures from "./assets/Pictures";
 
 const HeroSection = () => {
   const urlPath = "../src/assets/images/developer.svg";
+  const classNaming = "hero__picture";
+  const imageDivClass = "hero__picture--container";
 
   return (
     <div className="hero-container">
@@ -20,7 +22,11 @@ const HeroSection = () => {
           Start Here
         </button>
       </div>
-      <Pictures url={urlPath} />
+      <Pictures
+        url={urlPath}
+        imageDivClass={imageDivClass}
+        classNaming={classNaming}
+      />
     </div>
   );
 };
