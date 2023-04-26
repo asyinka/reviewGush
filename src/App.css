@@ -14,19 +14,25 @@ html {
   touch-action: manipulation;
 }
 .navBar {
-  padding: 20px;
-  /* display: flex; */
+  -webkit-box-align: center;
+  align-items: center;
+  background: #ffffff;
   border-bottom: 1px solid #e2e8f0;
+  display: flex;
+  min-height: 60px;
+  padding-inline-end: 2rem;
+  padding-inline-start: 2rem;
+  padding: 0.5rem;
 }
 
 .projectName {
-  font-family: var(--fonts-headings);
-  font-weight: 700;
-  font-size: var(--md-font-size);
-  background-image: linear-gradient(to left, #dd6b20, #48bb78);
-  background-clip: text;
   -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to left, #dd6b20, #48bb78);
   color: transparent;
+  font-family: var(--fonts-headings);
+  font-size: var(--md-font-size);
+  font-weight: 700;
 }
 .navBar-Heading {
   text-align: center;
