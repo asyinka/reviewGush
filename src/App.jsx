@@ -1,4 +1,5 @@
 import "./App.css";
+import FeaturesSection from "./Features";
 import HeroSection from "./HeroSection";
 import NavBar from "./NavBar";
 const App = () => {
@@ -6,6 +7,7 @@ const App = () => {
     <div>
       <NavBar />
       <HeroSection />
+      <FeaturesSection />
     </div>
   );
 };

@@ -1,4 +1,8 @@
+import Pictures from "./assets/Pictures";
+
 const HeroSection = () => {
+  const urlPath = "../src/assets/images/developer.svg";
+
   return (
     <div className="hero-container">
       <div className="hero">
@@ -16,13 +20,7 @@ const HeroSection = () => {
           Start Here
         </button>
       </div>
-      <picture className="hero__picture--container">
-        <img
-          className="hero__picture"
-          src="./src/assets/images/developer.svg"
-          alt="image of a developer working on his system"
-        />
-      </picture>
+      <Pictures url={urlPath} />
     </div>
   );
 };
