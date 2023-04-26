@@ -8,6 +8,11 @@
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --md-font-size: 1rem;
 }
+html {
+  text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  touch-action: manipulation;
+}
 .navBar {
   padding: 20px;
   /* display: flex; */
@@ -28,16 +33,27 @@
 }
 .navBar-Button {
   display: none;
+  min-width: 6rem;
+  min-height: 2.5rem;
 }
 .button-primary {
   background: #dd6b20;
   border-radius: 0.75rem;
   outline: 2px solid transparent;
   outline-offset: 2px;
-  color: #ffffff;
   padding: 1rem;
   border: none;
   white-space: nowrap;
+  transition: background, 0.5s;
+}
+.button-primary--text {
+  font-weight: 600;
+  line-height: 1.2;
+  font-size: 0.875rem;
+  color: #ffffff;
+}
+.button-primary:hover {
+  background-color: #bb5009;
 }
 @media screen and (min-width: 574px) {
   .navBar {
