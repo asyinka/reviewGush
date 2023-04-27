@@ -1,9 +1,9 @@
 import "./App.css";
-import FeaturesSection from "./Features";
-import HeroSection from "./HeroSection";
-import NavBar from "./NavBar";
-import WaitlistSection from "./Waitlist";
-import FooterSection from "./footer";
+import FeaturesSection from "./pages/Features";
+import HeroSection from "./pages/HeroSection";
+import NavBar from "./pages/NavBar";
+import WaitlistSection from "./pages/Waitlist";
+import FooterSection from "./pages/footer";
 const App = () => {
   return (
     <div>

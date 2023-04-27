@@ -1,6 +1,6 @@
-import ButtonComp from "./assets/Button";
-import scrollToWaitList from "./assets/goToFormFctn";
-import ProjectName from "./assets/projectName";
+import ButtonComp from "../assets/Button";
+import scrollToWaitList from "../assets/goToFormFctn";
+import ProjectName from "../assets/projectName";
 
 const NavBar = () => {
   return (
