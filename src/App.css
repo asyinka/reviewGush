@@ -25,6 +25,7 @@ html {
   text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   touch-action: manipulation;
+  scroll-behavior: smooth;
 }
 img,
 video {

@@ -19,10 +19,10 @@ const HeroSection = () => {
           with ReviewGush using video, images, text, ratings, or even a
           combination of all four formats.
         </article>
-        <ButtonComp
+        <a
           className="hero__button button-primary button-primary--text"
-          btnTxt="Start Here"
-        />
+          href="#waitlist"
+        >Start Here</a>
       </div>
       <Pictures
         url={urlPath}
