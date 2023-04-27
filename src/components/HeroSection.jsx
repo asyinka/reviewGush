@@ -1,5 +1,5 @@
-import ButtonComp from "../assets/components/Button";
-import Pictures from "../assets/components/Pictures";
+import ButtonComp from "./Button";
+import Pictures from "./Pictures";
 
 const HeroSection = () => {
   const urlPath = "../src/assets/images/developer.svg";
