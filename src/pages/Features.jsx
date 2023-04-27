@@ -1,6 +1,6 @@
-import FeatureComp1 from "../assets/FeatureComp1";
-import FeatureComp2 from "../assets/FeatureComp2";
-import FeatureComp3 from "../assets/FeatureComp3";
+import FeatureComp1 from "../assets/components/FeatureComp1";
+import FeatureComp2 from "../assets/components/FeatureComp2";
+import FeatureComp3 from "../assets/components/FeatureComp3";
 
 const FeaturesSection = () => {
   return (

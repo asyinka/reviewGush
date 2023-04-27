@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import WaitlistSection from "../pages/Waitlist";
+import WaitlistSection from "../../pages/Waitlist";
 
 export default function scrollToWaitList() {
   const waitlistRef = useRef(null);

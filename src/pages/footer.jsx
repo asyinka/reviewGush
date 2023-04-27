@@ -1,5 +1,5 @@
-import FooterIcons from "../assets/footerIcons";
-import ProjectName from "../assets/projectName";
+import FooterIcons from "../assets/components/footerIcons";
+import ProjectName from "../assets/components/projectName";
 
 const FooterSection = () => {
   return (
