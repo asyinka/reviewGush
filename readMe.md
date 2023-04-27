@@ -7,4 +7,4 @@
 - npm install
 - To deploy: npm run dev
 - This project is built using vite
-  ** kindly go to package.json for more info about the project **
+  **Go to package.json for more info about the project**
