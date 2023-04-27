@@ -1,5 +1,9 @@
 const ButtonComp = ({ className, btnTxt }) => {
-  return <button className={className}>{btnTxt}</button>;
+  return (
+    <button type="submit" className={className}>
+      {btnTxt}
+    </button>
+  );
 };
 
 export default ButtonComp;

@@ -1,6 +1,6 @@
 const WaitlistSection = () => {
   return (
-    <div className="waitlist-card waitlist-card--primary">
+    <div className="waitlist-card waitlist-card--primary" id="waitlist">
       <h2 className="waitlist-card__cta">Enjoy 30 days free PRO trial</h2>
       <h2 className="waitlist-card__heading">Join Our Waitlist</h2>
       <p>

@@ -72,6 +72,7 @@ video {
   white-space: nowrap;
   transition: background, 0.5s;
   appearance: none;
+  cursor: pointer;
 }
 .button-primary--text {
   font-weight: 600;
