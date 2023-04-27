@@ -1,3 +1,4 @@
+import ButtonComp from "./assets/Button";
 import Pictures from "./assets/Pictures";
 
 const HeroSection = () => {
@@ -18,9 +19,10 @@ const HeroSection = () => {
           with ReviewGush using video, images, text, ratings, or even a
           combination of all four formats.
         </article>
-        <button className="hero__button button-primary button-primary--text">
-          Start Here
-        </button>
+        <ButtonComp
+          className="hero__button button-primary button-primary--text"
+          btnTxt="Start Here"
+        />
       </div>
       <Pictures
         url={urlPath}
