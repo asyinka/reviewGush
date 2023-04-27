@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { toast } from "react-toastify";
 
 const WaitlistSection = () => {
   const [firstName, setFirstName] = useState("");
@@ -8,10 +9,11 @@ const WaitlistSection = () => {
 
   const handleSubmission = (event) => {
     event.preventDefault();
+    
     setLoading(true)
 
     setTimeout(() => {
-      alert("form submitted")
+      toast.success("Your form has been successfully submitted")
       setLoading(false)
     }, 2000);
   }
